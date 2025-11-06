@@ -1,0 +1,27 @@
+{
+  "name": "tmuxracer",
+  "version": "1.0.0",
+  "description": "A falling hotkeys typing game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "game",
+    "typing",
+    "hotkeys"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "kontra": "^7.0.0",
+    "hotkeys-js": "^3.13.7",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
+
