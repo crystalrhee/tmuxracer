@@ -1,6 +1,6 @@
-# Git Push Command
+# Commit (Git)
 
-Stages all changes, auto-generates a commit message based on the staged diff, commits, and pushes to `origin main`.
+Stages all changes, auto-generates a commit message based on the staged diff, and commits.
 
 ## Steps
 
@@ -13,8 +13,7 @@ Stages all changes, auto-generates a commit message based on the staged diff, co
    - Analyze the diff to understand what changed (additions, deletions, modified files)
    - Create a descriptive message for the commit message
 
-3. **Commit and push:**
+3. **Commit:**
    ```bash
    git commit -m "$COMMIT_MSG"
-   git push origin main
    ```
