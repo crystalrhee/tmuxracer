@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TypeRacer - Typing Speed Game</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>TypeRacer</h1>
-            <div class="stats">
-                <div class="stat">
-                    <span class="label">Score</span>
-                    <span class="value" id="score">0</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Time</span>
-                    <span class="value" id="timer">0s</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Level</span>
-                    <span class="value" id="level">1</span>
-                </div>
-                <div class="stat">
-                    <span class="label">Combo</span>
-                    <span class="value" id="combo">0</span>
-                </div>
-            </div>
-        </header>
+      <header>
+        <h1>TypeRacer</h1>
+        <div class="stats">
+          <div class="stat">
+            <span class="label">Score</span>
+            <span class="value" id="score">0</span>
+          </div>
+          <div class="stat">
+            <span class="label">Time</span>
+            <span class="value" id="timer">0s</span>
+          </div>
+          <div class="stat">
+            <span class="label">Level</span>
+            <span class="value" id="level">1</span>
+          </div>
+          <div class="stat">
+            <span class="label">Combo</span>
+            <span class="value" id="combo">0</span>
+          </div>
+        </div>
+      </header>
 
-        <main>
-            <div class="game-area">
-                <canvas id="gameCanvas"></canvas>
-                <div class="game-overlay" id="gameOverlay">
-                    <p>Press keys to catch falling hotkeys!</p>
-                    <p class="instruction">Match the key combinations before they reach the bottom</p>
-                </div>
-                <div class="controls">
-                    <button id="startBtn" class="btn btn-primary">Start Game</button>
-                    <button id="resetBtn" class="btn btn-secondary" disabled>Reset</button>
-                </div>
-            </div>
-        </main>
+      <main>
+        <div class="game-area">
+          <canvas id="gameCanvas"></canvas>
+          <div class="game-overlay" id="gameOverlay">
+            <p>Press keys to catch falling hotkeys!</p>
+            <p class="instruction">
+              Match the key combinations before they reach the bottom
+            </p>
+          </div>
+          <div class="controls">
+            <button id="startBtn" class="btn btn-primary">Start Game</button>
+            <button id="resetBtn" class="btn btn-secondary" disabled>
+              Reset
+            </button>
+          </div>
+        </div>
+      </main>
     </div>
 
     <!-- Game Script -->
     <script type="module" src="/script.js"></script>
-</body>
+  </body>
 </html>

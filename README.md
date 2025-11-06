@@ -49,4 +49,4 @@ Press the key combinations shown on falling hotkeys before they reach the bottom
 - **Kontra.js** - Lightweight game library for rendering and game loops
 - **hotkeys-js** - Keyboard input handling
 - **Vite** - Fast build tool and dev server
-- **Zustand** - State management (available for future use)
+ - **Zustand** - State management (available for future use)
